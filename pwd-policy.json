@@ -1,0 +1,12 @@
+{
+    "min-length": 4,
+    "max-length": 8,
+    "min-upper-case": 1,
+    "min-lower-case": 1,
+    "min-number": 1,
+    "min-special-char": 1,
+    "special-chars": "!@#$%^&*()_+",
+    "black-list": ["password", "123", "456", "qwerty"],
+    "white-list": ["password123", "qwerty123"],
+    "min-strength": 60
+}
