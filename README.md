@@ -1,7 +1,12 @@
-# WORK IN PROGRESS #
-
 # Password Police
+
+## Status
 In development. Not ready for use.
+
+## Installation
+```
+go get github.com/dramamask/password-police-go
+```
 
 ## Example password policy file
 ```json
@@ -11,12 +16,8 @@ In development. Not ready for use.
 }
 ```
 
-## Running the code
-Run the code with `go run .`
-Run the tests with `go test -v ./...`
-
 ## Developing
-Run `go mod tidy` on the command line when using a new third-party package that you haven't used before. This imports the package.
+Run the tests with `go test -v ./...`
 
 ## TODO
 Implement all the rules
