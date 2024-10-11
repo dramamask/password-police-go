@@ -3,6 +3,14 @@
 # Password Police
 In development. Not ready for use.
 
+## Example password policy file
+```json
+{
+    "min-length": 4,
+    "max-length": 8
+}
+```
+
 ## Running the code
 Run the code with `go run .`
 Run the tests with `go test -v ./...`
