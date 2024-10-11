@@ -4,6 +4,11 @@ import (
 	"fmt"
 )
 
+/**
+* Example password description
+* Password must be a minimum of 20 characters in length with at least one number, one uppercase letter, and one symbol.
+ */
+
 // GetDescription returns the description for the password policy
 func GetDescription(policy Policy) (description string) {
 	return getLengthDescription(policy)
