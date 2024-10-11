@@ -1,12 +1,12 @@
-package main
+package passwordpolice
 
 import (
 	"fmt"
 
-	"github.com/dramamask/password-police/policy"
+	"github.com/dramamask/password-police-go/policy"
 )
 
-func main() {
+func Test() {
 	password := "1234567"
 	policyRules := policy.ParsePolicy()
 

@@ -1,4 +1,4 @@
-module github.com/dramamask/password-police
+module github.com/dramamask/password-police-go
 
 go 1.22.0
 
